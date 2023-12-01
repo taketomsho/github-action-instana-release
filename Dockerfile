@@ -1,7 +1,7 @@
 # Container image that runs your code
 FROM alpine:3.10
 
-ENV version=dev
+ENV version=0.0
 
 RUN apk add --no-cache curl jq
 
